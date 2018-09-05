@@ -10,7 +10,7 @@
 
   <body>
 
-<div class="container">
+
   <ul class="nav justify-content-end ig-header-menu">
     <%- if user_signed_in? %> <%# validamos si hay usuario registrado%>
       <li class="nav-item ig-item-menu">
@@ -36,6 +36,7 @@
     </div>
   <% end %>
 </div>
+<div class="container">
   <%= yield %>
 </div>
 

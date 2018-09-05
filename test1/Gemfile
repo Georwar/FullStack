@@ -35,6 +35,8 @@ gem 'bootstrap'
 gem 'carrierwave'
 gem 'mini_magick'
 
+gem 'jwt'
+
 gem 'devise', git: 'git://github.com/plataformatec/devise.git'
 
 
